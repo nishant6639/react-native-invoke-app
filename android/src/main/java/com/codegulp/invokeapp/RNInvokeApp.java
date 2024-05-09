@@ -59,7 +59,7 @@ public class RNInvokeApp extends ReactContextBaseJavaModule {
             .FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
             reactContext.startActivity(activityIntent);
         } catch(Exception e) {
-            Log.e(LOG_TAG, "Class not found", e);
+            // Log.e(LOG_TAG, "Class not found", e);
             return;
         }
 
