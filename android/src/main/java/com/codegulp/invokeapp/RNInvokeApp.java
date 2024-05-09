@@ -40,9 +40,9 @@ public class RNInvokeApp extends ReactContextBaseJavaModule {
         // Log.d('HAS_KEY_PARAM', params.hasKey("data"));
         ReadableMap data = params.hasKey("data") ? params.getMap("data") : null;
 
-        for (String key: bundle.keySet()) {
-            Log.d(LOG_TAG, key + " = \"" + bundle.get(key) + "\"");
-        }
+        // for (String key: bundle.keySet()) {
+        //     Log.d(LOG_TAG, key + " = \"" + bundle.get(key) + "\"");
+        // }
         if (data != null) {
             bundle = Arguments.toBundle(data);
         }
