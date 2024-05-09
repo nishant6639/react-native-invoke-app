@@ -20,7 +20,7 @@
     "email": "roma232789@gmail.com"
   },
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.72.4"
   },
   "homepage": "https://github.com/RomanSuvorov/react-native-invoke-app#readme",
   "scripts": {
